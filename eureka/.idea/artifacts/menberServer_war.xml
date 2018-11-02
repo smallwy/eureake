@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="menberServer:war">
+    <output-path>$PROJECT_DIR$/../menberServer/target</output-path>
+    <root id="archive" name="menberServer-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="menberServer:war exploded" />
+    </root>
+  </artifact>
+</component>
