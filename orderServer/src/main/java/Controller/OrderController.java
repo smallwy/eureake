@@ -9,7 +9,7 @@ import org.springframework.web.client.RestTemplate;
 public class OrderController {
   @Autowired private RestTemplate restTemplate;
 
-  @RequestMapping("/getorder")
+  @RequestMapping("/getOrder")
   public String getOrder() {
     // order 使用rpc 远程调用技术 调用 会员服务
     String memberUrl = "http://app-member/getMember";

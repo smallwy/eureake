@@ -7,12 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eureka" />
+        <module name="eureka (1)" />
+        <module name="eureka1" />
         <module name="menberServer" />
         <module name="orderServer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="eurake_beifen" target="1.5" />
       <module name="eureka" target="1.8" />
+      <module name="eureka (1)" target="1.8" />
+      <module name="eureka1" target="1.8" />
       <module name="menberServer" target="1.8" />
       <module name="orderServer" target="1.8" />
     </bytecodeTargetLevel>
